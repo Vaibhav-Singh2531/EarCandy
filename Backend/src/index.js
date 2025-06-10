@@ -7,7 +7,7 @@ import cors from "cors";
 import cookieParser from 'cookie-parser';
 import { createServer } from "http";
 import { initializeSocket } from "./lib/socket.js";
-import {cron} from "node-cron";
+import cron from "node-cron";
 import fs from "fs";
 
 import { clerkClient, requireAuth, getAuth } from '@clerk/express'
